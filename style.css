@@ -84,7 +84,7 @@ a:hover {
 }
 
 .plot { 
-	height:100px;
+	height:130px;
 	display:block;
 }
 
@@ -94,6 +94,16 @@ a:hover {
 }
 
 .ending {
+	margni-top:20px;
 	height:250px;
 	display:none;
+}
+
+.printPasscode {
+	color:white;
+}
+.moviePoster { 
+	width:145px;
+	float:right;
+	padding-left:5px;
 }
