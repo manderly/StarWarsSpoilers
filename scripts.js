@@ -19,7 +19,7 @@ $(document).ready(function () {
 		$(this).addClass('tabSelected');
 		
 		$(".contents").hide(); //hide all the contents divs
-		$("#ep" + episodeNum).show(); //show just the selected film contents
+		$("#ep" + episodeNum).fadeIn(); //show just the selected film contents
 		$("#ep" + episodeNum).find(".printPasscode").html(passcode);
 	});
 
@@ -27,7 +27,7 @@ $(document).ready(function () {
 	$(".reveal").click(function() {
 		var input = $("#ep"+episodeNum).find(".passcodeInput").val();
 		if (input.toLowerCase() == passcode.toLowerCase()) {
-			$("#ep" + episodeNum).find(".ending").show();
+			$("#ep" + episodeNum).find(".ending").fadeIn(500);
 			$("#ep" + episodeNum).find(".passcodePrompt").hide();
 		} else {
 			alert(input);
