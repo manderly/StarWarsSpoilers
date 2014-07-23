@@ -1,0 +1,99 @@
+body {
+	background-color:#f1f1f1;
+	font-size:1em;
+	font-family: 'Varela Round', sans-serif;
+	background:url('starfield.jpg');
+	background-size:1500px;
+	color:yellow;
+}
+
+h1 {
+	text-align:center;
+}
+
+ul { 
+	padding:0px;
+}
+
+ul li { 
+	display:inline;
+	list-style-type:none;
+	margin:5px;
+	padding:0;
+}
+
+a {
+	color:white;
+	text-decoration:none;
+}
+
+a:hover {
+	color:gray;
+}
+
+.nav { 
+	display:block;
+	width:70%;
+	max-width:70%;
+	margin:5px auto;
+	display: flex; 
+  	justify-content: space-around;
+  	color:black;
+}
+
+.movieDataContainer {
+	width:600px;
+	height:460px;
+	margin:5px auto;
+	border-radius:8px;
+	border:yellow 2px solid;
+	background-color:rgba(0,0,0,0.8);
+	overflow-y:scroll;
+}
+
+.error {
+	font-size:.8em;
+	color:red;
+}
+
+.tab {
+	padding:10px;
+	border-radius:8px;
+	background-color:yellow;
+	cursor:pointer;
+}
+
+.tab:hover{ 
+	background-color:white;
+	color:blue;
+}
+
+.tabSelected {
+	background-color:white;
+	color:blue;
+}
+
+.contentsContainer {
+	margin:auto;
+	width:500px;
+	height:100%;
+}
+
+.contentsContainer > div { 
+	display:none;
+}
+
+.plot { 
+	height:100px;
+	display:block;
+}
+
+.credits {
+	text-align:center;
+	font-size:.7em;
+}
+
+.ending {
+	height:250px;
+	display:none;
+}
